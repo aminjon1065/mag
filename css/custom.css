@@ -1,0 +1,24 @@
+@import './fonts';
+.bg-header{
+    background-image: url('./../assets/images/bg/f2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.f-comforter {
+    font-family: 'Comforter', cursive;  
+}
+
+.f-Playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-blur-header {
+    backdrop-filter: blur(20px);
+    background-color: RGBA(255,255,255,0.2)
+}
+
+.asterisk{
+    vertical-align: super;
+    font-size: smaller;
+}
