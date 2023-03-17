@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-    <header class="vh-100 bg-header">
+    <header class="vh-100 bg-header" id="myHeader">
         <div class="vh-100 blur-10">
             <!-- <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
                 <div class="container">
@@ -74,8 +76,9 @@
             </div>
         </div>
     </header>
-    <div class="pt-2 vh-100 about-bg d-flex align-items-center d-sm-flex d-block bg-about">
-        <!-- <div id="leaves">
+    <div class="bg-about vh-100 opacity-0" id="about">
+        <div class="vh-100 blur-20">
+            <!-- <div id="leaves">
             <i></i>
             <i></i>
             <i></i>
@@ -92,31 +95,44 @@
             <i></i>
             <i></i> 
           </div> -->
-        <div class="container text-center blur-10">
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+            <div class="pt-2 vh-100 d-flex align-items-center d-sm-flex d-block">
+                <div class="container text-center ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg">
 
-                    </div>
-                    <div class="col text-white bg-blur-header rounded-3 p-5">
-                        <div class="">
-                            <span class="text-black display-3 fw-bold f-Playfair">
-                                Я -
-                            </span>
-                            <span class="f-comforter fw-bold display-1 text-black text-black">
-                                Мария
-                            </span>
+                            </div>
+                            <div class="col-lg">
+
+                            </div>
+                            <div class="col text-white bg-blur-header rounded-3 p-5">
+                                <div class="mb-3">
+                                    <span class="text-black display-3 fw-bold f-Playfair">
+                                        Я -
+                                    </span>
+                                    <span class="f-comforter fw-bold display-1 text-black text-black">
+                                        Мария
+                                    </span>
+                                </div>
+                                <span class="">
+                                    Ясновидящая с девятым родовым статусом, передающимся из поколения в поколение.
+                                    Специалист работает исключительно светлыми энергиями, без использования какой-либо
+                                    черной
+                                    магии.
+                                </span>
+                                <p>
+                                    Единственный аспект касающийся черной магии - это ее снятие.
+                                </p>
+                            </div>
                         </div>
-                        Ясновидящая с девятым родовым статусом, передающимся из поколения в поколение.
-                        Специалист работает исключительно светлыми энергиями, без использования какой-либо черной магии.
-                        Единственный аспект касающийся черной магии - это ее снятие.
-                    </div>
-                    <div class="col-sm">
-
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="bg-skills vh-100">
+        <div class="vh-100 blur-20">
+
         </div>
     </div>
 </body>

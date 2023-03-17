@@ -3,6 +3,7 @@
     background-image: url('./../assets/images/bg/f2.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .f-comforter {
@@ -17,6 +18,8 @@
     backdrop-filter: blur(20px);
     background-color: RGBA(255,255,255,0.2)
 }
+
+
 
 .asterisk{
     vertical-align: super;
@@ -36,10 +39,8 @@
     width:100%;
     text-align: right;
     z-index: 0;
-    opacity:1;
+    opacity:0.1;
 }
-
-
 #leaves i {
 
     display: inline-block;
@@ -176,14 +177,23 @@
 
 
 .bg-about{
-
-/*     
-    background-image: url('./../assets/images/bg/f1.jpg');
+    background-image: url('./../assets/images/bg/bg2.avif');
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.bg-skills{
+    background-image: url('./../assets/images/bg/bg.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blur-10{
-    
+    backdrop-filter: blur(10px);
+}
+.blur-20
+{
+    backdrop-filter: blur(20px);
 }
