@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,15 +19,22 @@
     <!-- /Fonts -->
     <title>Document</title>
 </head>
-
 <body>
-<header class="vh-100 bg-header" id="myHeader">
+<a onclick="" id="myBtn" title="Go to top" href="#myHeader">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+         viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+    </svg>
+</a>
+
+<section class="vh-100 bg-header" id="myHeader">
     <div class="vh-100 blur-10">
         <!-- <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Главная</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -63,7 +69,7 @@
                     </a>
                     <div class="containertext-black">
                         <sup class="text-danger asterisk">
-                            1
+                            *
                         </sup>
                         <span class="text-black">
                                 При соблюдении рекомендаций - гарантия результата в установленный срок
@@ -75,26 +81,9 @@
             </div>
         </div>
     </div>
-</header>
-<div class="bg-about vh-100" id="about">
+</section>
+<section class="bg-about vh-100" id="about">
     <div class="vh-100 blur-20">
-        <div id="leaves">
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
         <div class="pt-2 vh-100 d-flex align-items-center d-sm-flex d-block">
             <div class="container text-center ">
                 <div class="container">
@@ -107,20 +96,20 @@
                         </div>
                         <div class="col text-white bg-blur-header rounded-3 p-5">
                             <div class="mb-3">
-                                    <span class="text-black display-3 fw-bold f-Playfair">
+                                    <span class="text-black display-1 fw-bold f-Playfair">
                                         Я -
                                     </span>
                                 <span class="f-comforter fw-bold display-1 text-black text-black">
                                         Мария
                                     </span>
                             </div>
-                            <span class="">
+                            <span class="h4 f-Playfair">
                                     Ясновидящая с девятым родовым статусом, передающимся из поколения в поколение.
                                     Специалист работает исключительно светлыми энергиями, без использования какой-либо
                                     черной
                                     магии.
                                 </span>
-                            <p>
+                            <p class="h4 f-Playfair">
                                 Единственный аспект касающийся черной магии - это ее снятие.
                             </p>
                         </div>
@@ -129,16 +118,53 @@
             </div>
         </div>
     </div>
-</div>
-<div class="bg-skills vh-100" id="skills">
+</section>
+<section class="bg-skills vh-100" id="skills">
     <div class="vh-100 blur-20">
         <div class="pt-2 vh-100 d-flex align-items-center d-sm-flex d-block">
-            <div class="bg-blur-header rounded-3 p-5">
-                
+            <div class="bg-blur-header rounded-3 p-5 mx-auto">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg">
+                            <img src="./assets/images/book4.webp" class="card-image rounded-3" alt="img">
+                        </div>
+                        <div class="col-lg">
+                            <img src="./assets/images/book2.webp" class="card-image rounded-3" alt="img">
+                        </div>
+                        <div class="col-lg">
+                            <img src="./assets/images/book3.webp" class="card-image rounded-3" alt="img">
+                        </div>
+                        <div class="col-lg">
+                            <img src="./assets/images/book1.webp" class="card-image rounded-3" alt="img">
+                        </div>
+                    </div>
+                    <div class="bg-black p-2 rounded-2 mt-3 text-center">
+                        <p class="w-75 mx-auto h4 text-white  f-Playfair">
+                            Если Мария берется за решение вашей проблемы - это означает лишь одно, результат
+                            гарантирован и
+                            не получить его невозможно. Безвозмездная диагностика поможет выявить корень вашей проблемы
+                            и
+                            рассмотреть возможность ее решения.
+                        </p>
+                        <p class="text-danger h4 f-Playfair">
+                            Мария не угадывает, а четко видит проблему и помогает с ее решением!
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<section class="bg-reviews vh-100" id="reviews">
+    <div class="vh-100 blur-20">
+        <div class="pt-2 vh-100 d-flex align-items-center d-sm-flex d-block">
+            <div class="bg-blur-header rounded-3 p-5 mx-auto">
+
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 
 </html>
